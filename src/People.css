@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Raleway&family=Rubik&display=swap");
+.container{
+    width: 100%;
+}
+
+.items-wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 12px;
+}
+
+.item-p{
+    display: flex;
+    border-radius: 8px;
+    padding-top: 3px;
+}
+
+@media only screen and (max-width: 600px) {
+    .product{
+        width: 100%;
+        margin-left: 15px;
+        margin-left: 15px;
+        display: grid;
+        background: rgb(248, 246, 246);
+        border-radius: 25px 25px 0px 0px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 1.5rem;
+        grid-row-gap: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .product{
+        width: 100%;
+        margin-left: 15px;
+        margin-left: 15px;
+        text-align: center;
+        display: grid;
+        background: rgb(255, 253, 253);
+        border-radius: 25px 25px 0px 0px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 1.5rem;
+        grid-row-gap: 2rem;
+    }
+}
+
+   img{
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+}
+
+
+.container {
+    padding-top: 10px;
+}
